@@ -18,5 +18,10 @@ public class Appliance implements SwitchBoard {
 		System.out.println("How are you?");
 		
 	}
+	
+	public void SwitchFour() {
+		System.out.println("I am doing well");
+		
+	}
 
 }
