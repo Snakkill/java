@@ -8,5 +8,6 @@ public class Main {
 			
 			sbl.SwitchOne();
 			sbl.SwitchTwo();
+			sbl.SwitchThree();
 	    }
 }

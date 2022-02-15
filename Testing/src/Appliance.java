@@ -13,4 +13,10 @@ public class Appliance implements SwitchBoard {
 		
 	}
 
+	@Override
+	public void SwitchThree() {
+		System.out.println("How are you?");
+		
+	}
+
 }
