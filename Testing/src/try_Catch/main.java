@@ -14,10 +14,34 @@ public class main {
 		catch(ArithmeticException e){
 			System.out.println("Not correct");
 			
+		}finally {
+			System.out.println("Line 2");
+	    }
+		
+		System.out.println("LINE 3");
+		
+		
+		int age=10;
+		if(age<60){
+			try {
+				throw new throwAge();
+			} 
+			catch (throwAge e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			catch(ArrayIndexOutOfBoundsException e){
+				
+			}
+			
+			catch(Exception e){
+				
+			}//super class
 		}
 		
-		System.out.println("LINE 2");
-		
     }
+	
+	
+	
 
 }
