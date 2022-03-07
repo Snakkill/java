@@ -4,11 +4,12 @@ package try_Catch;
 public class main {
 	
 
-static int m(){
-	return 0/0;
+static int m() throws throwAge{
+	//return 0/0;
+	throw new throwAge();
 }
 
-static void n(){
+static void n() throws throwAge{
 	m();
 }
 
